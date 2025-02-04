@@ -1,0 +1,124 @@
+bash-4.4$ python3 main.py google.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+Received DNS response (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------
+header.ID = 4660
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.RCODE = 0
+header.QDCOUNT = 1
+header.ANCOUNT = 6
+header.NSCOUNT = 0
+header.ARCOUNT = 0
+question.QNAME = google.com
+question.QTYPE = 1
+question.QCLASS = 1
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.16.101 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.16.138 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.16.139 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.16.102 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.16.100 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.16.113 ## resolved IP address ##
+----------------------------------------------------------------------------
+bash-4.4$ python3 main.py youtube.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+Received DNS response (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------
+header.ID = 4660
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.RCODE = 0
+header.QDCOUNT = 1
+header.ANCOUNT = 4
+header.NSCOUNT = 0
+header.ARCOUNT = 0
+question.QNAME = youtube.com
+question.QTYPE = 1
+question.QCLASS = 1
+answer.NAME = youtube.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.111.190 ## resolved IP address ##
+answer.NAME = youtube.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.111.136 ## resolved IP address ##
+answer.NAME = youtube.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.111.93 ## resolved IP address ##
+answer.NAME = youtube.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 300
+answer.RDATA = 142.251.111.91 ## resolved IP address ##
+----------------------------------------------------------------------------
+bash-4.4$ python3 main.py facebook.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+Received DNS response (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------
+header.ID = 4660
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.RCODE = 0
+header.QDCOUNT = 1
+header.ANCOUNT = 1
+header.NSCOUNT = 0
+header.ARCOUNT = 0
+question.QNAME = facebook.com
+question.QTYPE = 1
+question.QCLASS = 1
+answer.NAME = facebook.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 60
+answer.RDATA = 157.240.229.35 ## resolved IP address ##
+----------------------------------------------------------------------------
